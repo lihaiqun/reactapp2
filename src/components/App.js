@@ -1,11 +1,12 @@
 import React from 'react';
-// class App extends React.Component {
-//   render () {
-//     return (
-//       <div>hello react</div>
-//     )
-//   }
-// }
+
+class App extends React.Component {
+  render () {
+    return (
+      <div>hello react</div>
+    )
+  }
+}
 
 // const App = function () {
 //   return (
@@ -19,5 +20,5 @@ import React from 'react';
 //   )
 // }
 
-const App = () => (<div>hello react function2</div>)
+// const App = () => (<div>hello react function2</div>)
 export default App;
